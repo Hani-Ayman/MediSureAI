@@ -8,8 +8,8 @@ def load_lottiefile(path: str):
     with open(path, "r") as f:
         return json.load(f)
 
-lottie_aug = load_lottiefile("lottie\lottie_aug.json")
-lottie_success = load_lottiefile("lottie\lottie_suc.json")
+lottie_aug = load_lottiefile("lottie/lottie_aug.json")
+lottie_success = load_lottiefile("lottie/lottie_suc.json")
 
 # Header and animation
 st_lottie(lottie_aug, height=180, key="augment-anim", loop=True)
