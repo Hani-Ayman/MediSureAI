@@ -17,7 +17,7 @@ st.title("📊 Image Clustering & Anomaly Detection (DBSCAN & KMeans)")
 # 🔹 Root folder input
 st.sidebar.subheader("⚙️ Settings")
 root_folder = st.sidebar.text_input("Root Folder Path", 
-    value=r"Enter path to images")
+    value=r"pillQC/images")
 
 if not os.path.exists(root_folder):
     st.error("❌ Root folder not found. Please check the path.")
