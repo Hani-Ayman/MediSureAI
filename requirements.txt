@@ -1,9 +1,7 @@
 streamlit
 streamlit-lottie
-json
 tensorflow
 numpy
 pandas
-base64
 scikit-learn
 matplotlib
