@@ -1,7 +1,7 @@
 import streamlit as st
 from streamlit_lottie import st_lottie
 import json
-
+#set page title
 st.set_page_config(page_title="MediSureAI Dashboard", page_icon="💊", layout="wide")
 
 # Load welcome animation (main page)
